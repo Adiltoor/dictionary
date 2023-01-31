@@ -1,42 +1,121 @@
 {
-  "name": "dictionary",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.1.3",
-    "bootstrap": "^5.2.2",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
-    "react-paginate": "^8.1.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@testing-library/jest-dom": {
+      "value": "^5.16.5",
+      "type": "other"
+    },
+    "@testing-library/react": {
+      "value": "^13.4.0",
+      "type": "other"
+    },
+    "@testing-library/user-event": {
+      "value": "^13.5.0",
+      "type": "other"
+    },
+    "axios": {
+      "value": "^1.1.3",
+      "type": "other"
+    },
+    "bootstrap": {
+      "value": "^5.2.2",
+      "type": "other"
+    },
+    "react": {
+      "value": "^18.2.0",
+      "type": "other"
+    },
+    "react-bootstrap": {
+      "value": "^2.5.0",
+      "type": "other"
+    },
+    "react-dom": {
+      "value": "^18.2.0",
+      "type": "other"
+    },
+    "react-paginate": {
+      "value": "^8.1.3",
+      "type": "other"
+    },
+    "react-scripts": {
+      "value": "5.0.1",
+      "type": "other"
+    },
+    "web-vitals": {
+      "value": "^2.1.4",
+      "type": "other"
+    },
+    "adil": {
+      "value": "{key}",
+      "type": "sizing"
+    }
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": {
+      "value": "react-scripts start",
+      "type": "other"
+    },
+    "build": {
+      "value": "react-scripts build",
+      "type": "other"
+    },
+    "test": {
+      "value": "react-scripts test",
+      "type": "other"
+    },
+    "eject": {
+      "value": "react-scripts eject",
+      "type": "other"
+    }
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": {
+      "0": {
+        "value": "react-app",
+        "type": "other"
+      },
+      "1": {
+        "value": "react-app/jest",
+        "type": "other"
+      }
+    }
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+    "production": {
+      "0": {
+        "value": ">0.2%",
+        "type": "other"
+      },
+      "1": {
+        "value": "not dead",
+        "type": "other"
+      },
+      "2": {
+        "value": "not op_mini all",
+        "type": "other"
+      }
+    },
+    "development": {
+      "0": {
+        "value": "last 1 chrome version",
+        "type": "other"
+      },
+      "1": {
+        "value": "last 1 firefox version",
+        "type": "other"
+      },
+      "2": {
+        "value": "last 1 safari version",
+        "type": "other"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "dependencies",
+      "scripts",
+      "eslintConfig",
+      "browserslist"
     ]
   }
 }
