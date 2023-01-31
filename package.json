@@ -47,6 +47,10 @@
     "adil": {
       "value": "{key}",
       "type": "sizing"
+    },
+    "line-height": {
+      "value": "{1rem}",
+      "type": "lineHeights"
     }
   },
   "scripts": {
